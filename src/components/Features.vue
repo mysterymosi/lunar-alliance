@@ -74,7 +74,7 @@
   </div> -->
   <div class="page-section bg-dark fg-white">
   <div class="container">
-    <h1 class="text-center">Why Choose Mobster</h1>
+    <h1 class="text-center">Why Us?</h1>
 
     <div class="row justify-content-center mt-5">
       <div class="col-md-6 col-lg-3 py-3">
