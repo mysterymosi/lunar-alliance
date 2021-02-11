@@ -19,6 +19,10 @@
                   <label class="control-label sr-only" for="email"></label>
                   <input v-model="user.email" id="email" type="email" name="email" placeholder="Email" class="form-control" required>
                 </div>
+                <div class="form-group">
+                  <label class="control-label sr-only" for="dob"></label>
+                  <input v-model="user.email" id="dob" type="date" name="dob" placeholder="Date of birth" class="form-control" required>
+                </div>
                 <div class="row">
                   <div class="col-lg-6">
                     <div class="form-group">
@@ -37,7 +41,8 @@
                   <div class="col-lg-6">
                     <div class="form-group">
                       <select class="form-control" v-model="user.security_question">
-                        <option v-for="(option, index) in options" :key="index">{{ option }}</option>
+                        <option value="" disabled selected>Select a security question (For those in the US region only)</option>
+                        <option v-for="question in security_questions" :key="question.id">{{ question.question }}</option>
                       </select>
                     </div>
                   </div>
@@ -56,7 +61,7 @@
                   <label class="control-label sr-only" for="confirm_password"></label>
                   <input v-model="user.confirm_password" id="confirm_password" type="password" placeholder="Confirm password" class="form-control" required>
                 </div>
-                <button @click.prevent="showAddressForm" class="btn btn-dark">Next</button>
+                <button @click.prevent="storeSignUpDetails" class="btn btn-dark">Next</button>
               </form>
             </div>
             <p class="text-white mt-5">Not a member? <router-link to="/signup" class="text-yellow">Sign up</router-link><span class="pull-right">
@@ -78,13 +83,29 @@ export default {
   data() {
     return {
       user: {
+        name: null,
         email: null,
-        password: null
+        password: null,
+        repeat_password: null,
+        dob: null,
+        phone: null,
+        ssn: null,
+        security_question: null,
+        answer: null
       },
-
-      options: ["beans", "food"],
       isAddressForm: false
     }
+  },
+
+  computed: {
+    security_questions() {
+      return this.$store.getters["user/getSecurityQuestions"];
+    }
+  },
+
+  mounted() {
+    this.$store.dispatch("user/getSecurityQuestions");
+    console.log("gotten");
   },
 
   methods: {
@@ -94,6 +115,32 @@ export default {
 
     closeAddressForm() {
       this.isAddressForm = false;
+    },
+
+    storeSignUpDetails() {
+      let qId;
+      for (const q of this.security_questions) {
+        if (q.question === this.user.security_question) {
+          qId = q.id;
+        }
+      }
+      let info = {
+        user: {
+          email: this.user.email,
+          name: this.user.name,
+          password: this.user.password,
+          repeat_password: this.user.repeat_password,
+          dob: this.user.dob,
+          phone: this.user.phone,
+          ssn: this.user.ssn
+        },
+        questions_user: {
+          answer: this.user.answer,
+          security_questions_id: qId
+        }
+      }
+      this.$store.commit("user/SET_INITIAL_SIGNUP_DETAILS", info);
+      this.isAddressForm = true;
     }
   }
 }

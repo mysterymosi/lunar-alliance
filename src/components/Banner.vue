@@ -8,7 +8,7 @@
             <!-- <div class="badge badge-soft mb-2">#1 Finances App on 2020</div> -->
             <h1 class="mb-4 fw-normal">Create a timely passive income</h1>
             <p class="mb-4">Trade CFDs on Shares, Indices, Forex, Binary and Cryptocurrencies.</p>
-            <a href="#" class="btn btn-dark">Get Started</a>
+            <router-link to="/user-wallet/user" class="btn btn-dark">Get Started</router-link>
           </div>
           <!-- <div class="col-lg-6 d-none d-lg-block wow zoomIn">
             <div class="img-place mobile-preview shadow floating-animate">

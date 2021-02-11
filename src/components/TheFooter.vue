@@ -4,22 +4,22 @@
       <div class="row justify-content-center text-center wow fadeInUp">
         <div class="col-lg-8">
           <div class="text-center mb-3">
-            <img src="../assets/favicon-light.png" alt="" height="80">
+            <img src="../assets/img/lunaralliance-2.png" alt="" height="80">
           </div>
-          <h3 class="mb-3"><span class="fg-primary">Mob</span>ster</h3>
-          <p class="caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Expedita voluptates earum minima reiciendis consectetur veniam aut dignissimos</p>
+          <!-- <h3 class="mb-3"><span class="fg-primary">Mob</span>ster</h3> -->
+          <p class="caption">Lunar Alliance is an officially registered company in Canada. Lunar Alliance operates under the strict compliance of Canada's law. We give our clients all required guarantees, including confidentiality of data provided by clients at the registration procedure.</p>
           <ul class="nav justify-content-center py-3">
-            <li class="nav-item"><a href="index.html" class="nav-link fg-white px-4">Home</a></li>
-            <li class="nav-item"><a href="" class="nav-link fg-white px-4">Key Features</a></li>
-            <li class="nav-item"><a href="" class="nav-link fg-white px-4">Pricing</a></li>
-            <li class="nav-item"><a href="" class="nav-link fg-white px-4">Testimonials</a></li>
-            <li class="nav-item"><a href="" class="nav-link fg-white px-4">FAQ</a></li>
+            <li class="nav-item"><router-link to="/" class="nav-link fg-white px-4">Home</router-link></li>
+            <li class="nav-item"><router-link to="/about" class="nav-link fg-white px-4">About</router-link></li>
+            <li class="nav-item"><router-link to="/investment-packages" class="nav-link fg-white px-4">Invest now</router-link></li>
+            <li class="nav-item"><router-link to="/testimonies" class="nav-link fg-white px-4">Testimonies</router-link></li>
+            <li class="nav-item"><router-link to="/faqs" class="nav-link fg-white px-4">FAQ</router-link></li>
           </ul>
         </div>
       </div>
     </div>
     <hr>
     <!-- Please don't remove or modify the credits below -->
-    <p class="text-center mt-4 wow fadeIn">Copyright &copy; 2020 <a href="https://www.macodeid.com/" class="fg-white fw-medium">MACode ID</a>. All right reserved</p>
+    <p class="text-center mt-4 wow fadeIn">Copyright &copy; 2021 <router-link to="/" class="fg-white fw-medium">Lunar Alliance</router-link>. All right reserved</p>
   </div>
 </template>

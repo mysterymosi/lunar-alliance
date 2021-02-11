@@ -20,82 +20,91 @@
             <div class="accordion accordion-gap" id="accordionFAQ">
               <div class="accordion-item wow fadeInRight">
                 <div class="accordion-trigger" id="headingFour">
-                  <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Payment types that won't work</button>
+                  <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">How can I register a new account?</button>
                 </div>
                 <div id="collapse1" class="collapse" aria-labelledby="headingFour" data-parent="#accordionFAQ">
                   <div class="accordion-content">
-                    <p>You can't add these payment methods to Google Pay:</p>
-                    <ul>
-                      <li>Wire transfers</li>
-                      <li>Bank transfers</li>
-                      <li>Western Union</li>
-                      <li>Moneygram</li>
-                      <li>Virtual credit cards (VCC)</li>
-                      <li>Health savings account (HSA)</li>
-                      <li>Any escrow type of payment</li>
-                      <li>Prepaid cards if you use automatic payments</li>
-                    </ul>
+                    <p>You can signup for an e-currency account and create a username and password. Follow all necessary steps to identify yourself.</p>
                   </div>
                 </div>
               </div>
               <div class="accordion-item wow fadeInRight">
                 <div class="accordion-trigger" id="headingFive">
-                  <button class="btn" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">Already seeing payment methods</button>
+                  <button class="btn" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">How can I check my account balance?</button>
                 </div>
                 <div id="collapse2" class="collapse show" aria-labelledby="headingFive" data-parent="#accordionFAQ">
                   <div class="accordion-content">
-                    <p>New to Google Pay and already seeing payment methods? If you paid for something through Google in the past, Google Pay saved your card.</p>
+                    <p>You can access the account information 24 hours, seven days a week over the Internet.</p>
                   </div>
                 </div>
               </div>
               <div class="accordion-item wow fadeInRight">
                 <div class="accordion-trigger" id="headingSix">
-                  <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">Your transaction cannot be completed</button>
+                  <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">After I make a withdrawal request, when will the funds be available on my e-currency account?</button>
                 </div>
                 <div id="collapse3" class="collapse" aria-labelledby="headingSix" data-parent="#accordionFAQ">
                   <div class="accordion-content">
-                    <p>If you see this error message, wait 24 hours and try to add your card again.</p>
+                    <p>Funds are usually available instantly or within 24 hours</p>
                   </div>
                 </div>
               </div>
               <div class="accordion-item wow fadeInRight">
                 <div class="accordion-trigger" id="headingSeven">
-                  <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Credit & Debit cards</button>
+                  <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">How can I invest with Lunar Alliance?</button>
                 </div>
                 <div id="collapse4" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionFAQ">
                   <div class="accordion-content">
-                    <ul>
-                      <li>American Express</li>
-                      <li>MasterCard</li>
-                      <li>Visa</li>
-                      <li>Discover (U.S. only)</li>
-                      <li>JCB (Japan and U.S. only)</li>
-                      <li>Visa Electron (outside U.S. only)</li>
-                      <li>Elo credit cards (Brazil only; Elo debit cards aren’t accepted)</li>
-                    </ul>
-                    <p>The types of cards accepted by Google services vary by location and product.</p>
+                    <p>To make a investment you must first become a member of Lunar Alliance and have an e-currency account. Once you are signed up, you can make your first deposit. All deposits for investments must be made through the <router-link to="/investment-packages">Investment Packages</router-link> page.</p>
                   </div>
                 </div>
               </div>
               <div class="accordion-item wow fadeInRight">
                 <div class="accordion-trigger" id="headingEight">
-                  <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">Send money to friends or family</button>
+                  <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">How long does it take for my deposit to be added to my account?</button>
                 </div>
                 <div id="collapse5" class="collapse" aria-labelledby="headingEight" data-parent="#accordionFAQ">
                   <div class="accordion-content">
-                    <p>This feature is only available in the US. For the US territories, this is supported only if the debit card was issued under a US-licensed bank. If you'd like to know in advance whether your payment to or from a US territory will go through, please check with your card issuing bank.</p>
-                    <p>You can use Google Pay to send money to friends and family or to someone using their email address or phone number. Google Pay charges no fees.</p>
-                    <p>If you have a problem sending money, here is a list of likely reasons.</p>
+                    <p>Your account will be updated as fast, as you deposit for bitcoin and litcoin it will automatically credited to your account after 3 confirmations.</p>
                   </div>
                 </div>
               </div>
               <div class="accordion-item wow fadeInRight">
                 <div class="accordion-trigger" id="headingNine">
-                  <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">How long it usually takes to send or receive money</button>
+                  <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">How can I withdraw funds?</button>
                 </div>
                 <div id="collapse6" class="collapse" aria-labelledby="headingNine" data-parent="#accordionFAQ">
                   <div class="accordion-content">
-                    <p>For the best Google Pay experience, we recommend using a debit card whenever you send or receive money from friends and family. With a debit card, sending and receiving money is usually the fastest option.</p>
+                    <p>Login to your account using your username and password and submit a withdrawal ticket. If you are eligible, your request will be processed in 24 hours.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item wow fadeInRight">
+                <div class="accordion-trigger" id="headingNine">
+                  <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">How can I change my email address or password?</button>
+                </div>
+                <div id="collapse6" class="collapse" aria-labelledby="headingNine" data-parent="#accordionFAQ">
+                  <div class="accordion-content">
+                    <p>Log into your lunaralliance.investments account and click on the "Account Information". You can change your e-mail address and password there.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item wow fadeInRight">
+                <div class="accordion-trigger" id="headingNine">
+                  <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">How can I change my password?</button>
+                </div>
+                <div id="collapse6" class="collapse" aria-labelledby="headingNine" data-parent="#accordionFAQ">
+                  <div class="accordion-content">
+                    <p>You can change your password directly from your members area by editing it in your personal profile.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item wow fadeInRight">
+                <div class="accordion-trigger" id="headingNine">
+                  <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">What if I can't log into my account because i forgot my password?</button>
+                </div>
+                <div id="collapse6" class="collapse" aria-labelledby="headingNine" data-parent="#accordionFAQ">
+                  <div class="accordion-content">
+                    <p>Click the "Forgot Password" link, type your username or e-mail and retreive your account information.</p>
                   </div>
                 </div>
               </div>
