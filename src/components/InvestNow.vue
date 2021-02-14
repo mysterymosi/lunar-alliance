@@ -9,10 +9,20 @@
         <div class="col-lg-5 py-3 mt-lg-5">
           <div class="img-place mobile-preview shadow wow zoomIn">
             <!-- <img src="../assets/img/forex.svg" alt=""> -->
-            <router-link to="/investment-packages" class="btn btn-outline-primary rounded-pill">Get Started Today</router-link>
+            <router-link :to="user? '/investment-packages' : '/signin'" class="btn btn-outline-primary rounded-pill">Get Started Today</router-link>
           </div>
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+      user: localStorage.getItem("user")
+    }
+  }
+}
+</script>

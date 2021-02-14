@@ -26,7 +26,7 @@
               <p>We believe every client is different and requires a unique approach. Our mission is to help people navigate through changing market conditions and several kinds of investment opportunities in order to find a strategic plan that best fits their trading goals.</p>
             </div>
             <div class="page-section no-scroll">
-                <h2 class="text-center wow fadeIn">Simple Steps To Get Started</h2>
+                <h2 class="text-center wow fadeIn">Why Us?</h2>
                 <div class="row justify-content-center mt-5">
                   <div class="col-lg-10">
                     <div class="row justify-content-center">
