@@ -9,7 +9,7 @@
         <div class="col-lg-5 py-3 mt-lg-5">
           <div class="img-place mobile-preview shadow wow zoomIn">
             <!-- <img src="../assets/img/forex.svg" alt=""> -->
-            <router-link :to="user? '/investment-packages' : '/signin'" class="btn btn-outline-primary rounded-pill">Get Started Today</router-link>
+            <router-link :to="user? '/investment-packages' : '/login'" class="btn btn-outline-primary rounded-pill">Get Started Today</router-link>
           </div>
         </div>
       </div>
