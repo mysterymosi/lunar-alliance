@@ -105,4 +105,10 @@ export default {
 	font-size: 60px;
 	color: #3d58f3;
 }
+
+hr {
+  width: 200px;
+  border-top: 1px solid #3D58F3;
+  margin: 1rem auto;
+}
 </style>
