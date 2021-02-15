@@ -2,7 +2,7 @@
   <div class="home">
     <TheHeader />
     <Banner />
-    <About />
+    <!-- <About /> -->
     <GetStarted />
     <InvestmentPreview />
     <Features />
@@ -17,7 +17,7 @@
 import TheHeader from "@/components/TheHeader.vue";
 import Banner from "@/components/Banner.vue";
 import GetStarted from "@/components/GetStarted.vue";
-import About from "@/components/About.vue";
+// import About from "@/components/About.vue";
 import InvestmentPreview from "@/components/InvestmentPreview.vue";
 import Features from "@/components/Features.vue";
 import InvestNow from "@/components/InvestNow.vue";
@@ -29,7 +29,7 @@ export default {
   components: {
     TheHeader,
     Banner,
-    About,
+    // About,
     GetStarted,
     InvestmentPreview,
     Features,
