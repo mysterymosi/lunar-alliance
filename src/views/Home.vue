@@ -7,6 +7,7 @@
     <InvestmentPreview />
     <Features />
     <InvestNow />
+    <Clients />
     <TheFooter />
   </div>
 </template>
@@ -20,6 +21,7 @@ import About from "@/components/About.vue";
 import InvestmentPreview from "@/components/InvestmentPreview.vue";
 import Features from "@/components/Features.vue";
 import InvestNow from "@/components/InvestNow.vue";
+import Clients from "@/components/Clients.vue";
 import TheFooter from "@/components/TheFooter.vue";
 
 export default {
@@ -32,6 +34,7 @@ export default {
     InvestmentPreview,
     Features,
     InvestNow,
+    Clients,
     TheFooter
   }
 };

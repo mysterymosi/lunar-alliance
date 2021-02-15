@@ -18,12 +18,28 @@
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="card-page">
-              <!-- <h5 class="fg-primary">About Us</h5>
-              <hr> -->
-              <p>Lunar Alliance, founded in 2015, is a trading platform managed by a private trader, Mr. Wesley Hargraves, who trades mostly Cryptocurrency. Mr. Wesley Hargraves has been trading for more than 6 years now and has a vast knowledge of the Crypto Online Market and Cryptocurrency Trading Investment. Lunar Alliance is being known for it's transparency and accountability of managing finance in the world of Cryptocurrency Trading Investment and Account Management. We had a breakthrough in the market during the middle of 2016.</p>
-              <p>Lunar Alliance is a global market place for people to trade Currencies, Commodities, Indices and CFD Stock online in a simple and transparent way. Our goal is to make trading accessible to all investors regardless of age, location, investment, technical knowledge or experience. Investing in Lunar Alliance involves the Daily Packages where profits are paid directly to our client's wallet every day, Weekly Packages where profits are paid directly to our client's wallet every week, the Monthly Compounding Investments and the NFP.</p>
-              <p>The company is successful thanks to the big amount of profitable trades and some of the best specialists. We are existing on the market since 2015 and still give our investors significant profits till now. There are no unrealistic promises presented here, just steady and consistent results with the best possible and achievable returns at minimun risk.</p>
-              <p>We believe every client is different and requires a unique approach. Our mission is to help people navigate through changing market conditions and several kinds of investment opportunities in order to find a strategic plan that best fits their trading goals.</p>
+              <h5 class="fg-primary text-center">WHO WE SERVE</h5>
+              <hr>
+              <p>We help over 32 million people feel more confident in their most important financial goals, manage employee benefit programs for over 22,000 businesses, and support more than 13,000 financial institutions with innovative cryptocurrency investment and technology solutions to grow their businesses.</p>
+              <p>Our diverse businesses and independence give us insight into the entire market and the stability needed to think and act for the long term as we deliver value to you.</p>
+            </div>
+
+            <div class="card-page mt-5">
+              <h5 class="fg-primary text-center">DIVERSITY AND INCLUSION</h5>
+              <hr>
+              <p>We know that a diverse and inclusive workforce is the key to creating a relevant and differentiated customer experience. Building a connected and collaborative workforce that reflects the broader society will help us help our customers.</p>
+            </div>
+
+            <div class="card-page mt-5">
+              <h5 class="fg-primary text-center">CORPORATE SPONSORSHIP</h5>
+              <hr>
+              <p>Fidelity partners with organizations that do good work locally and nationally, support shared corporate and community goals, and provide opportunities to strengthen relationships with key stakeholders.</p>
+            </div>
+
+            <div class="card-page mt-5">
+              <h5 class="fg-primary text-center">SUSTAINABILITY</h5>
+              <hr>
+              <p>We foster innovation to achieve positive environmental change, while empowering customers, associates, and communities to reduce our global footprint.</p>
             </div>
             <div class="page-section no-scroll">
                 <h2 class="text-center wow fadeIn">Why Us?</h2>
