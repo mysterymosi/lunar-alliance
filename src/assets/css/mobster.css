@@ -2871,3 +2871,7 @@ hr {
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.55);
  }
+
+.card, .card-page {
+  border-radius: 30px;
+}
