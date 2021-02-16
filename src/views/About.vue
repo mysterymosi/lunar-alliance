@@ -75,17 +75,17 @@
               </div>
             </div>
             <div class="page-section no-scroll">
-              <h2 class="text-center wow fadeIn">INFORMATION, TERMS, AGREEMENT & POLICIES</h2>
+              <h2 class="text-left wow fadeIn">INFORMATION, TERMS, AGREEMENT & POLICIES</h2>
               <div class="row justify-content-center mt-5">
                 <div class="col-lg-10">
-                  <div class="card-page mt-5">
+                  <div class="card-page mt-5 privacy">
                     <!-- <h5 class="fg-primary text-center">DIVERSITY AND INCLUSION</h5>
                     <hr> -->
-                    <p class="text-center">Lunar Alliance Investments is issued by Lunar Alliance Investments Branch ("Issuer"). By
+                    <p>Lunar Alliance Investments is issued by Lunar Alliance Investments Branch ("Issuer"). By
                       submitting this application, you are requesting Issuer ("we", "us", or "our") to establish an Lunar Alliance Investments account (the "Account") in your name, and you are agreeing to the following terms and conditions. If approved, your Account will be governed by Lunar Alliance Investments Customer Agreement provided to you at Account opening. The rates and terms associated with your Account are subject to change at any time, subject to applicable law.</p>
                     <h5 class="fg-primary text-center mt-5">1. ELIGIBILITY</h5>
                     <hr>
-                    <p class="text-center">
+                    <p>
                       To be eligible for an Account, you must:
                       Be at least 18 years of age (or older depending on your state/country of residence);
                       Have valid ID to show you're a citizen or lawful resident of a state/country;
@@ -93,28 +93,28 @@
                     </p>
                     <h5 class="fg-primary text-center mt-5">SHARING YOUR INFORMATION WITH LUNAR ALLIANCE INVESTMENTS INC.</h5>
                     <hr>
-                    <p class="text-center">
+                    <p>
                       Lunar Alliance Investments does not share your personal information (collectively, "Lunar Alliance Investments"). However, Lunar Alliance Investments may use this information to maintain and service your account, create and update their records, answer questions about your account, and perform other program functions.
                     </p>
-                    <p class="text-center">
+                    <p>
                       In addition, when you provide your personal information Lunar Alliance Investments to apply for investments, you are also providing that information directly to Lunar Alliance. You may also choose to share additional information with Lunar Alliance Investments. Lunar Alliance Investments' Privacy Policy describes how Lunar Alliance Investments may use and share your personal information that you provide to Lunar Alliance Investments.
                     </p>
                     <h5 class="fg-primary text-center mt-5">2. AUTHORIZATION FOR CREDIT BUREAU REPORTS</h5>
                     <hr>
-                    <p class="text-center">
+                    <p>
                       You authorize us to obtain one or more credit bureau reports (also known as consumer reports)and other information about you from credit bureaus and/or other third party sources for use in (1) evaluating your application for credit; (2) administering and servicing your Account; (3) collecting any amounts owed on your Account; (4) offering other products and services; and (5) other purposes permitted by law. Upon your request, we may or may not inform you whether or not a credit bureau report was obtained and the name and address of the credit bureau that furnished the report.
                     </p>
                     <h5 class="fg-primary text-center mt-5">3. IMPORTANT INFORMATION ABOUT OPENING A NEW ACCOUNT</h5>
                     <hr>
-                    <p class="text-center">
+                    <p>
                       To help the government fight the funding of terrorism and money laundering activities, federal law requires all financial institutions to obtain, verify, and record information that identifies each person who opens an account. Accordingly, when you apply for an Account, Lunar Alliance Investments will ask for your name, address, date of birth and other information that will allow Lunar Alliance Investments to identify you. In certain cases, Lunar Alliance Investments may ask you for additional documentation or information to meet these obligations.
                     </p>
-                    <p class="text-center">
+                    <p>
                       You represent and warrant that any information you provide in connection with your application is accurate, complete and true in all respects.
                     </p>
                     <h5 class="fg-primary text-center mt-5">4. PHONE COMMUNICATIONS</h5>
                     <hr>
-                    <p class="text-center">
+                    <p>
                       By providing your phone number, you expressly allow us and our affiliates or agents, solely for purposes of servicing your application or Account, to call or text you through a telephone network using an automated telephone dialing system, even if you incur charges for receiving such communications. You also agree that this consent applies to any updated phone number that you provide to us, by calling us, or through any other communications channel that we enable for your Account.
                     </p>
                     <h5 class="fg-primary text-center mt-5">5. FACTS</h5>
@@ -144,10 +144,10 @@
                     </p>
                     <h5 class="fg-primary text-center mt-5">ELECTRONIC COMMUNICATIONS AGREEMENT</h5>
                     <hr>
-                    <p class="text-center">
+                    <p>
                       Lunar Alliance Investments their designees, service providers and affiliates (together, "we", "us", or "our") may need to provide you with certain information, agreements, notices or disclosures in writing in connection with your Lunar Aliance Investment application, your Account, and any programs relating to investments (each, a "Communication"). By agreeing to this Electronic Communications Agreement (this "Agreement"), you are confirming your ability, and providing your consent, to receive Communications electronically from us instead of in paper form and to the use of electronic signatures in our relationship with you. Without limiting the foregoing, you further agree that Communications may be provided to you via email, text message, device-level notifications, or other electronic notification methods supported by the software you use to access your Account. Any terms that are capitalized but not defined in this Agreement have the meaning given to them in the Lunar Alliance Investments Information and Terms (the "Terms").
                     </p>
-                    <p class="text-center">
+                    <p>
                       Our ability to provide Communications to you electronically is dependent upon you maintaining a valid email address. We may send Communications to the email address that is associated with your Lunar Alliance Account. Therefore, you agree to maintain a valid email address associated with your Lunar Alliance Account for as long as you maintain your Account. In the event Communications are provided to you via email, text message, device-level notifications, or other electronic methods supported by the software you use to access your Account, it is your responsibility to review those Communications. We may, at our discretion, mail paper copies of Communications to you, in addition to or instead of sending them to you electronically.
                     </p>
                     <p>
@@ -190,7 +190,7 @@
                     </p>
                     <h5 class="fg-primary text-center mt-5">LUNAR ALLIANCE INVESTMENTS PRIVACY POLICY</h5>
                     <hr>
-                    <p class="text-center">
+                    <p>
                       Only an account owner oa Lunar Alliance Investments Investment Wallet can make enquiries about said Wallet'
                       All investment wallets are secured with SSL-encryption against hacks. That is, 100% consumer protection.
                       All users are expected to pay 30% of their investment capital as brokerage fees a few weeks after receiving their first payment.
@@ -232,5 +232,9 @@ hr {
   width: 200px;
   border-top: 1px solid #3D58F3;
   margin: 1rem auto;
+}
+
+.privacy p {
+  font-size: 14px;
 }
 </style>
