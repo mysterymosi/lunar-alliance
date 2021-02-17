@@ -81,8 +81,7 @@
                   <div class="card-page mt-5 privacy">
                     <!-- <h5 class="fg-primary text-center">DIVERSITY AND INCLUSION</h5>
                     <hr> -->
-                    <p>Lunar Alliance Investments is issued by Lunar Alliance Investments Branch ("Issuer"). By
-                      submitting this application, you are requesting Issuer ("we", "us", or "our") to establish an Lunar Alliance Investments account (the "Account") in your name, and you are agreeing to the following terms and conditions. If approved, your Account will be governed by Lunar Alliance Investments Customer Agreement provided to you at Account opening. The rates and terms associated with your Account are subject to change at any time, subject to applicable law.</p>
+                    <!-- <p></p> -->
                     <h5 class="fg-primary text-center mt-5">1. ELIGIBILITY</h5>
                     <hr>
                     <p>
@@ -91,7 +90,7 @@
                       Have valid ID to show you're a citizen or lawful resident of a state/country;
                       Have a valid email address to be associated with your Lunar Alliance Investments account;
                     </p>
-                    <h5 class="fg-primary text-center mt-5">SHARING YOUR INFORMATION WITH LUNAR ALLIANCE INVESTMENTS INC.</h5>
+                    <h5 class="fg-primary text-center mt-5">2. SHARING YOUR INFORMATION WITH LUNAR ALLIANCE INVESTMENTS INC.</h5>
                     <hr>
                     <p>
                       Lunar Alliance Investments does not share your personal information (collectively, "Lunar Alliance Investments"). However, Lunar Alliance Investments may use this information to maintain and service your account, create and update their records, answer questions about your account, and perform other program functions.
@@ -99,12 +98,12 @@
                     <p>
                       In addition, when you provide your personal information Lunar Alliance Investments to apply for investments, you are also providing that information directly to Lunar Alliance. You may also choose to share additional information with Lunar Alliance Investments. Lunar Alliance Investments' Privacy Policy describes how Lunar Alliance Investments may use and share your personal information that you provide to Lunar Alliance Investments.
                     </p>
-                    <h5 class="fg-primary text-center mt-5">2. AUTHORIZATION FOR CREDIT BUREAU REPORTS</h5>
+                    <h5 class="fg-primary text-center mt-5">3. AUTHORIZATION FOR CREDIT BUREAU REPORTS</h5>
                     <hr>
                     <p>
                       You authorize us to obtain one or more credit bureau reports (also known as consumer reports)and other information about you from credit bureaus and/or other third party sources for use in (1) evaluating your application for credit; (2) administering and servicing your Account; (3) collecting any amounts owed on your Account; (4) offering other products and services; and (5) other purposes permitted by law. Upon your request, we may or may not inform you whether or not a credit bureau report was obtained and the name and address of the credit bureau that furnished the report.
                     </p>
-                    <h5 class="fg-primary text-center mt-5">3. IMPORTANT INFORMATION ABOUT OPENING A NEW ACCOUNT</h5>
+                    <h5 class="fg-primary text-center mt-5">4. IMPORTANT INFORMATION ABOUT OPENING A NEW ACCOUNT</h5>
                     <hr>
                     <p>
                       To help the government fight the funding of terrorism and money laundering activities, federal law requires all financial institutions to obtain, verify, and record information that identifies each person who opens an account. Accordingly, when you apply for an Account, Lunar Alliance Investments will ask for your name, address, date of birth and other information that will allow Lunar Alliance Investments to identify you. In certain cases, Lunar Alliance Investments may ask you for additional documentation or information to meet these obligations.
@@ -112,12 +111,12 @@
                     <p>
                       You represent and warrant that any information you provide in connection with your application is accurate, complete and true in all respects.
                     </p>
-                    <h5 class="fg-primary text-center mt-5">4. PHONE COMMUNICATIONS</h5>
+                    <h5 class="fg-primary text-center mt-5">5. PHONE COMMUNICATIONS</h5>
                     <hr>
                     <p>
                       By providing your phone number, you expressly allow us and our affiliates or agents, solely for purposes of servicing your application or Account, to call or text you through a telephone network using an automated telephone dialing system, even if you incur charges for receiving such communications. You also agree that this consent applies to any updated phone number that you provide to us, by calling us, or through any other communications channel that we enable for your Account.
                     </p>
-                    <h5 class="fg-primary text-center mt-5">5. FACTS</h5>
+                    <h5 class="fg-primary text-center mt-5">6. FACTS</h5>
                     <hr>
                     <h6>
                       Why?
