@@ -195,7 +195,7 @@
       </div>
       <div class="page-section privacy-policy no-scroll">
         <div class="container">
-          <h2 class="text-center wow fadeIn">LUNAR ALLIANCE INVESTMENTS PRIVACY POLICY</h2>
+          <h2 class="text-left wow fadeIn">LUNAR ALLIANCE INVESTMENTS PRIVACY POLICY</h2>
           <div class="row justify-content-center mt-5">
             <div class="col-lg-12">
               <div class="privacy">
@@ -243,6 +243,10 @@ hr {
 
 .privacy p {
   font-size: 14px;
+}
+
+.privacy h5 {
+  font-size: 1rem;
 }
 
 .privacy-policy {

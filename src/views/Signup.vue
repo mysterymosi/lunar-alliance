@@ -20,7 +20,7 @@
                   <input v-model="user.email" id="email" type="email" name="email" placeholder="Email" class="form-control" required>
                 </div>
                 <div class="form-group">
-                  <label class="control-label sr-only" for="dob"></label>
+                  <label class="control-label sr-only" for="dob">Date of birth</label>
                   <input v-model="user.email" id="dob" type="date" name="dob" placeholder="Date of birth" class="form-control" required>
                 </div>
                 <div class="row">
