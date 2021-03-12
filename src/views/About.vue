@@ -224,7 +224,7 @@ export default {
 
 .is-large {
   font-size: 60px;
-  color: #3d58f3;
+  color: #2c75af;
 }
 
 hr {

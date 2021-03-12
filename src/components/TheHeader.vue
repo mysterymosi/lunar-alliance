@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark navbar-floating">
     <div class="container">
       <router-link class="navbar-brand" to="/">
-        <img src="../assets/img/lunaralliance.png" alt="" width="40">
+        <img src="../assets/img/newlogo.jpg" alt="" width="40">
       </router-link>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -32,7 +32,7 @@
           <router-link to="/login" class="btn btn-primary rounded-pill">Login</router-link>
         </div>
         <div v-else-if="profile && !path.includes('user-wallet')" class="ml-auto my-2 my-lg-0">
-          <router-link to="/user-wallet/user" class="btn btn-primary rounded-pill">My wallet</router-link>
+          <router-link to="/user-wallet/user" class="btn btn-outline-primary rounded-pill">My wallet</router-link>
         </div>
         <div v-if="profile && path.includes('user-wallet')" class="ml-auto my-2 my-lg-0">
           <a href="#"  @click="logout" to="/login" class="btn btn-primary rounded-pill">Logout</a>

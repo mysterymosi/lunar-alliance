@@ -4,7 +4,7 @@
       <div class="row justify-content-center text-center wow fadeInUp">
         <div class="col-lg-8">
           <div class="text-center mb-3">
-            <img src="../assets/img/lunaralliance-2.png" alt="" height="80">
+            <img src="../assets/img/newlogo.jpg" alt="" height="80">
           </div>
           <!-- <h3 class="mb-3"><span class="fg-primary">Mob</span>ster</h3> -->
           <p class="caption">Lunar Alliance is an officially registered company in Canada. Lunar Alliance operates under the strict compliance of Canada's law. We give our clients all required guarantees, including confidentiality of data provided by clients at the registration procedure.</p>

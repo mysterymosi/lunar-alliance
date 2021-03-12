@@ -98,7 +98,7 @@ export default {
 	border-top: none;
 	border-left: none;
 	border-right: none;
-	border-bottom: 2px solid #3D58F3;
+	border-bottom: 2px solid #2c75af;
 	box-shadow: none;
 }
 
@@ -107,7 +107,7 @@ export default {
 	border-top: none;
 	border-left: none;
 	border-right: none;
-	border-bottom: 2px solid #3D58F3;
+	border-bottom: 2px solid #2c75af;
 	box-shadow: none;
 }
 

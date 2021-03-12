@@ -64,7 +64,7 @@
                 <button @click.prevent="storeSignUpDetails" class="btn btn-dark">Next</button>
               </form>
             </div>
-            <p class="text-white mt-5">Not a member? <router-link to="/signup" class="text-yellow">Sign up</router-link><span class="pull-right">
+            <p class="text-white mt-5">Already a member? <router-link to="/login" class="text-yellow">Sign in</router-link><span class="pull-right">
                 <router-link to="/" class="text-white">Back to Home</router-link>
               </span></p>
           </div>
@@ -155,7 +155,7 @@ export default {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 2px solid #3D58F3;
+  border-bottom: 2px solid #2c75af;
   box-shadow: none;
 }
 
@@ -164,7 +164,7 @@ export default {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 2px solid #3D58F3;
+  border-bottom: 2px solid #2c75af;
   box-shadow: none;
 }
 
